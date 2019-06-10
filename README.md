@@ -4,7 +4,7 @@
 
 *Link*: https://gemslab.github.io/papers/jin-2019-roles.pdf
 
-![alt text](https://raw.githubusercontent.com/GemsLab/EMBER/master/overview.jpg | width=400 )
+![Overview of EMBER](https://raw.githubusercontent.com/GemsLab/EMBER/master/overview.jpg|width=400)
 
 
 **Code**: The code will be uploaded here soon.
