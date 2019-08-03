@@ -202,7 +202,7 @@ def get_delimiter(input_file_path):
 
 	return delimiter
 
-def write_embedding(rep, output_file_path):
+def write_embedding(rep, output_file_path, nodes_to_embed):
 	N, K = rep.shape
 
 	fOut = open(output_file_path, 'w')
@@ -210,7 +210,7 @@ def write_embedding(rep, output_file_path):
 
 	for i in range(N):
 		cur_line = ' '.join([str(np.round(ii, 6)) for ii in rep[i,:]])
-		fOut.write(str(i) + ' ' + cur_line + '\n')
+		fOut.write(str(nodes_to_embed[i]) + ' ' + cur_line + '\n')
 
 	fOut.close()
 

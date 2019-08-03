@@ -648,5 +648,5 @@ if __name__ == "__main__":
 	representations = get_representations(graph, rep_method, verbose = False, nodes_to_embed = nodes_to_embed)
 
 	
-	write_embedding(representations, embed_file)
+	write_embedding(representations, embed_file, nodes_to_embed)
 
