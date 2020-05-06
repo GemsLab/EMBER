@@ -11,7 +11,7 @@
 **Code**: The code will be uploaded here soon.
 
 **Citation (bibtex)**:
-```
+```bibtex
 @inproceedings{DBLP:conf/kdd/JinRHSWLS19,
   author    = {Di Jin* and
                Mark Heiamann* and
