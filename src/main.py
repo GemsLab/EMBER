@@ -3,8 +3,8 @@ import numpy as np, scipy as sp, networkx as nx
 import math, time, os, sys, random
 from collections import deque
 from sklearn.decomposition import NMF, DictionaryLearning
-import matplotlib
-import matplotlib.pyplot as plt
+# import matplotlib
+# import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
 
 
